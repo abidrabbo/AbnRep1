@@ -1,5 +1,5 @@
 function guessinggame(){
-	correct_answer=$(ls -l |grep "^-"|wc -l)
+	correct_answer=$(ls -a |grep "^-"|wc -l)
 	while true;
 	do
 		echo "Enter a number: "
