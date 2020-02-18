@@ -2,7 +2,7 @@
 #file: guessinggame.sh
 
 function guessinggame(){
-	correct_answer=$(ls -la |grep "^-"|wc -l)
+	correct_answer=$(ls -la | wc -l)
 	while true;
 	do
 		echo "Enter a number: "
