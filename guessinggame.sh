@@ -1,3 +1,6 @@
+#!/user/bin/env bash
+#file: guessinggame.sh
+
 function guessinggame(){
 	correct_answer=$(ls -a |grep "^-"|wc -l)
 	while true;
